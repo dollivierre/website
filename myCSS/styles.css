@@ -38,11 +38,11 @@ hr {
 .nav-link {
   color: white;
   display: inline-block;
-  width: 100px;
+  width: 120px;
   padding: 10px;
-  font-family: 'Rouge Script', cursive;
-  /*font-family: 'Merriweather', serif;*/
-  font-size: 1.5rem;
+  /*font-family: 'Rouge Script', cursive;*/
+  font-family: 'Merriweather', serif;
+  font-size: 1.0rem;
 }
 
 .nav-link:hover {
@@ -137,4 +137,22 @@ font-size: 2.25rem;
 span:hover {
   cursor: pointer;
   background-color: #fdaed8
+}
+
+.card-header {
+text-align: left;
+background-color: white;
+}
+
+.card-body {
+text-align: left;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.case {
+  padding-top: 16px;
 }
